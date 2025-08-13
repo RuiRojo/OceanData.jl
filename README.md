@@ -1,5 +1,6 @@
 # OceanData
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://ruirojo.github.io/OceanData.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://ruirojo.github.io/OceanData.jl/dev)
 [![CI](https://github.com/RuiRojo/OceanData.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/RuiRojo/OceanData.jl/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/RuiRojo/OceanData.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/RuiRojo/OceanData.jl)
