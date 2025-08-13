@@ -4,7 +4,7 @@ CurrentModule = OceanData
 
 # OceanData
 
-Documentation for [OceanData](https://gitlab.com/das-ara/priv/julia/OceanData.jl).
+Documentation for [OceanData](https://github.com/RuiRojo/OceanData.jl).
 
 ```@index
 ```
