@@ -1,0 +1,15 @@
+name = "OceanData devel"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Geo = "b2830079-5d0a-461a-85e0-6b6445f889a9"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+OceanData = "483efd93-6af7-4b79-b9c0-8b88c9c8962d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+RAM = "d12883c8-e11b-11e8-111d-414a526c09a0"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
+
+[compat]
+julia = "1.8.5"
