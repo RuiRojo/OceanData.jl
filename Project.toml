@@ -1,0 +1,35 @@
+name = "OceanData"
+uuid = "483efd93-6af7-4b79-b9c0-8b88c9c8962d"
+authors = ["Rui Rojo <rui.rojo@gmail.com> and contributors"]
+version = "0.1.13"
+
+[deps]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Geo = "b2830079-5d0a-461a-85e0-6b6445f889a9"
+GibbsSeaWater = "9a22fb26-0b63-4589-b28e-8f9d0b5c3d05"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Python_jll = "93d3a430-8e7c-50da-8e8d-3dfcfb3baf05"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+Downloads = "1.6.0"
+Pkg = "1.11.0"
+Python_jll = "3.11.12"
+SHA = "0.7.0"
+julia = "1.6"
+
+[extras]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Documenter"]

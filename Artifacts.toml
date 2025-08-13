@@ -1,0 +1,9 @@
+[[copernicusmarine_cli]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a0cdd9d428b691d9f309cfd0125e532fd556ec0c"
+julia_version = "1.11.5"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+libstdcxx_version = "3.4.30"
+os = "linux"
