@@ -19,7 +19,7 @@ jobs:
       - name: Add private Julia registry
         env:
           REGISTRY_URL: https://github.com/RuiRojo/julia-registry-rui
-        run: julia -e 'using Pkg; Pkg.Registry.add(Pkg.RegistrySpec(url=ENV["REGISTRY_URL"]))'
+        run: julia -e 'using Pkg; Pkg.Registry.add(); Pkg.Registry.add(Pkg.RegistrySpec(url=ENV["REGISTRY_URL"]))'
       - run: |
           julia --project=docs/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Build and deploy docs
