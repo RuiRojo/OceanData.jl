@@ -20,6 +20,7 @@ makedocs(;
         canonical="https://das-ara/priv/julia.gitlab.io/OceanData.jl",
         assets=String[],
     ),
+    doctest = false,
     checkdocs = :none,
     pages=[
         "Home" => "index.md",
