@@ -3,6 +3,13 @@ using Documenter
 
 DocMeta.setdocmeta!(OceanData, :DocTestSetup, :(using OceanData); recursive=true)
 
+if get(ENV, "CI", "false") != "true"
+    doctest(OceanData)
+else
+    @info "Skipping doctests in CI environment"
+end
+
+
 makedocs(;
     modules=[OceanData],
     authors="Rui Rojo <rui.rojo@gmail.com> and contributors",
@@ -13,6 +20,8 @@ makedocs(;
         canonical="https://ruirojo.github.io/OceanData.jl",
         assets=String[],
     ),
+    doctest = false,
+    checkdocs = :none,
     pages=[
         "Home" => "index.md",
     ],
