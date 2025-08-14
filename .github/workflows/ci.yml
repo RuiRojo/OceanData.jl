@@ -17,7 +17,7 @@ jobs:
       - name: Add private Julia registry
         env:
           REGISTRY_URL: https://github.com/RuiRojo/julia-registry-rui
-        shell: julia --color=yes --project=test {0}
+        shell: julia --color=yes {0}
         run: |
           using Pkg
           Pkg.Registry.add()
