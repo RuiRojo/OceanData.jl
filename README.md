@@ -25,7 +25,6 @@ Requires Julia ≥ 1.6.
   ```julia
   pkg> add https://github.com/RuiRojo/OceanData.jl
   ```
-- Requires [Geo.jl](https://github.com/RuiRojo/Geo.jl)
 
 You will need a free Copernicus Marine account to download data.
 
