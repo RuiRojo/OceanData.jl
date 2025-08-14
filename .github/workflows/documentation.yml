@@ -21,6 +21,8 @@ jobs:
           version: '1'
       - uses: julia-actions/cache@v2
       - name: Install dependencies and add registries
+        env:
+          REGISTRY_URL: https://github.com/RuiRojo/julia-registry-rui
         shell: julia --color=yes --project=docs {0}
         run: |
           using Pkg
