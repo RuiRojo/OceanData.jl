@@ -10,5 +10,5 @@ Documentation for [OceanData](https://github.com/RuiRojo/OceanData.jl).
 ```
 
 ```@autodocs
-Modules = [OceanData]
+Modules = [OceanData, OceanData.Copernicus]
 ```
