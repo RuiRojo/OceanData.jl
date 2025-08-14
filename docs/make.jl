@@ -11,6 +11,7 @@ makedocs(;
     sitename="OceanData.jl",
     format=Documenter.HTML(),
     doctest = false,
+    checkdocs = :public,
     pages=[
         "Home" => "index.md",
     ],
