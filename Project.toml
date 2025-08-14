@@ -1,7 +1,7 @@
 name = "OceanData"
 uuid = "483efd93-6af7-4b79-b9c0-8b88c9c8962d"
 authors = ["Rui Rojo <rui.rojo@gmail.com> and contributors"]
-version = "0.1.13"
+version = "0.1.14"
 
 [deps]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
