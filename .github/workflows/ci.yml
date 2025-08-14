@@ -17,7 +17,12 @@ jobs:
       - name: Add private Julia registry
         env:
           REGISTRY_URL: https://github.com/RuiRojo/julia-registry-rui
-        run: julia -e 'using Pkg; Pkg.Registry.add(Pkg.RegistrySpec(url=ENV["REGISTRY_URL"]))'
+        run: |
+          using Pkg
+          Pkg.Registry.add()
+          Pkg.Registry.add(Pkg.RegistrySpec(url=ENV["REGISTRY_URL"]))
+          Pkg.develop(PackageSpec(path=pwd()))
+          Pkg.instantiate()
       - uses: julia-actions/cache@v1
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1
